@@ -1,0 +1,98 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.khuyenmai-frame {
+    width: 900px;
+    margin: 30px auto;
+    border: 2px solid #d6002f;
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.khuyenmai-header {
+    background: #d6002f;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: right;
+    padding: 10px 0 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-bottom: 4px solid #fff;
+}
+.khuyenmai-header-imgbox {
+    background: #fff;
+    border: 2px solid #d6002f;
+    border-radius: 0;
+    padding: 4px 6px 4px 6px;
+    margin-right: 0;
+    margin-left: 12px;
+    display: flex;
+    align-items: center;
+    height: 120px;
+    box-sizing: border-box;
+}
+.khuyenmai-header img {
+    height: 110px;
+    width: auto;
+    margin: 0;
+    background: none;
+    border: none;
+    padding: 0;
+    display: block;
+}
+.khuyenmai-title {
+    background: #f9c9d0;
+    color: #d6002f;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 18px 0 12px 0;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #d6002f;
+    border-left: 2px solid #d6002f;
+    border-right: 2px solid #d6002f;
+}
+.khuyenmai-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.khuyenmai-left, .khuyenmai-right {
+    width: 50%;
+    padding: 18px 18px 18px 28px;
+    box-sizing: border-box;
+    font-size: 1.1em;
+}
+.khuyenmai-left {
+    border-right: 2px solid #d6002f;
+}
+.khuyenmai-section {
+    margin-bottom: 18px;
+}
+.khuyenmai-section-title {
+    color: #d6002f;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 6px;
+}
+.khuyenmai-list {
+    margin-left: 18px;
+    margin-bottom: 0;
+}
+.khuyenmai-right ol {
+    margin-top: 0;
+    margin-left: 18px;
+}
+.khuyenmai-right li {
+    margin-bottom: 10px;
+}
+.khuyenmai-right b {
+    color: #d6002f;
+}
