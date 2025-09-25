@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Câu 7" content="Huynh Nguyen Bon">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="Styles/cau7.css">
+</head>
+<body>
+    <div class="login-frame">
+        <div class="login-title">Đăng nhập</div>
+        <form id="loginForm" autocomplete="off">
+            <table class="login-table">
+                <tr>
+                    <th>Mã người dùng:</th>
+                    <td class="input"><input type="text" id="username" name="username" value="" required></td>
+                </tr>
+                <tr>
+                    <th>Mật khẩu:</th>
+                    <td class="input"><input type="password" id="password" name="password" value="" required></td>
+                </tr>
+                <tr class="login-btn-row">
+                    <td colspan="2"><button type="submit" class="login-btn">Đồng ý</button></td>
+                </tr>
+                <tr class="login-result-row" id="resultRow" style="display:none">
+                    <td colspan="2"><span class="login-result" id="loginResult"></span></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <script>
+    document.getElementById('loginForm').onsubmit = function(e) {
+        e.preventDefault();
+        var username = document.getElementById('username').value.trim();
+        if(username) {
+            document.getElementById('loginResult').textContent = username;
+            document.getElementById('resultRow').style.display = '';
+        }
+    };
+    </script>
+</body>
+</html>

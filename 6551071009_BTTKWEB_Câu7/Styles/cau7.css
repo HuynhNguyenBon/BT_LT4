@@ -1,0 +1,64 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: #fff;
+}
+.login-frame {
+    width: 500px;
+    margin: 60px auto;
+    border: 2px solid #a52a2a;
+    border-radius: 6px;
+    box-shadow: 4px 4px 8px #bbb;
+    background: #fff;
+}
+.login-title {
+    color: #a52a2a;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 18px 0 10px 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.login-table {
+    width: 95%;
+    margin: 0 auto 10px auto;
+    border-collapse: collapse;
+}
+.login-table td, .login-table th {
+    border: 1px solid #a52a2a;
+    padding: 6px 8px;
+    font-size: 1.1em;
+}
+.login-table th {
+    background: #e0f6ff;
+    color: #222;
+    text-align: left;
+    width: 110px;
+}
+.login-table td.input {
+    background: #e0f6ff;
+}
+.login-btn-row {
+    background: #bde7fa;
+    text-align: center;
+}
+.login-btn {
+    padding: 4px 18px;
+    font-size: 1em;
+    border: 1px solid #888;
+    border-radius: 3px;
+    background: #fff;
+    cursor: pointer;
+}
+.login-btn:hover {
+    background: #e0f6ff;
+}
+.login-result-row {
+    background: #bde7fa;
+    text-align: center;
+}
+.login-result {
+    color: #2222aa;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
