@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #fff;
+}
+
+h1 {
+    color: green;
+    text-align: center;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+.container {
+    border: 1px solid black;
+    padding: 10px;
+    width: 600px;
+    margin: auto;
+}
+
+.title {
+    background-color: pink;
+    text-align: center;
+    font-size: 24px;
+    color: deeppink;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.content {
+    background-color: #ffffcc;
+    padding: 10px;
+    text-align: center;
+}
+
+.blue {
+    color: blue;
+    font-style: italic;
+}
+.red {
+    color: deeppink;
+    font-style: italic;
+}
+.green {
+    color: green;
+    font-style: italic;
+}
+
+hr {
+    width: 50%;
+    border: none;
+    border-top: 1px solid #999;
+    margin: 10px auto;
+}
+
+.underline-yeucau {
+    width: 100%;
+    border: none;
+    border-top: 1px solid black;
+    margin: 5px 0 15px 0;
+}
