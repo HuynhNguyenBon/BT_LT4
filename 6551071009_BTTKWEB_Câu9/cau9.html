@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Câu 9" content="Huynh Nguyen Bon">
+    <title>Đăng ký du lịch</title>
+    <link rel="stylesheet" href="Styles/cau9.css">
+</head>
+<body>
+    <div class="tour-frame">
+        <div class="tour-title">Đăng ký du lịch</div>
+        <form id="tourForm" autocomplete="off">
+            <table class="tour-table">
+                <tr>
+                    <td class="label">Họ và tên</td>
+                    <td class="input"><input type="text" name="hoten" value="" required></td>
+                </tr>
+                <tr>
+                    <td class="label">Địa chỉ</td>
+                    <td class="input"><input type="text" name="diachi" value="" required></td>
+                </tr>
+                <tr>
+                    <td class="label">Điện thoại</td>
+                    <td class="input"><input type="text" name="dienthoai" value="" required></td>
+                </tr>
+                <tr>
+                    <td class="label">Khách Việt Nam</td>
+                    <td class="input"><input type="checkbox" name="vietnam"></td>
+                </tr>
+                <tr>
+                    <td class="label">Chọn tour</td>
+                    <td class="input">
+                        <select name="tour">
+                            <option>Buôn mê thuột - Gia lai - Kontum</option>
+                            <option>Đà Lạt - Nha Trang</option>
+                            <option>Hà Nội - Hạ Long</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">Phương tiện</td>
+                    <td class="input">
+                        <input type="radio" name="pt" value="maybay"> Máy bay
+                        <input type="radio" name="pt" value="oto"> Xe ô tô
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label" colspan="2" style="padding:0; border:none;">
+                        <div class="tour-group-box">
+                            <div class="tour-group-title">Số lượng đoàn khách</div>
+                            <div class="tour-group-row">
+                                <label>Người lớn</label> <input type="number" name="nguoilon" value="" min="0" style="width:60px;">
+                                <label>Trẻ em</label> <input type="number" name="treem" value="" min="0" style="width:60px;">
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">Ghi chú thêm</td>
+                    <td class="input">
+                        <textarea name="ghichu" rows="2"></textarea>
+                    </td>
+                </tr>
+                <tr class="tour-btn-row">
+                    <td colspan="2"><button type="submit" class="tour-btn">Đồng ý</button></td>
+                </tr>
+                <tr class="tour-success-row" id="successRow" style="display:none">
+                    <td colspan="2"><span class="tour-success">Bạn đã đăng ký thành công!!!</span></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <script>
+    document.getElementById('tourForm').onsubmit = function(e) {
+        e.preventDefault();
+        document.getElementById('successRow').style.display = '';
+    };
+    </script>
+</body>
+</html>

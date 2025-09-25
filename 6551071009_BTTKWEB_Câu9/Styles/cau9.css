@@ -1,0 +1,102 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: #fff;
+}
+.tour-frame {
+    width: 600px;
+    margin: 40px auto;
+    border: 2px solid #888;
+    border-radius: 6px;
+    background: #fff;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 8px #ccc;
+}
+.tour-title {
+    color: #2a5a8a;
+    text-align: center;
+    font-size: 2.2em;
+    font-weight: bold;
+    margin: 18px 0 10px 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.tour-table {
+    width: 98%;
+    margin: 0 auto 10px auto;
+    border-collapse: collapse;
+}
+.tour-table td, .tour-table th {
+    border: 1px solid #e6d8b2;
+    padding: 6px 8px;
+    font-size: 1.1em;
+}
+.tour-table th, .tour-table .label {
+    background: #fff6cc;
+    color: #222;
+    text-align: left;
+    width: 180px;
+    font-weight: normal;
+}
+.tour-table td.input {
+    background: #fff6cc;
+}
+.tour-table select, .tour-table input[type="text"], .tour-table input[type="number"] {
+    width: 98%;
+    font-size: 1em;
+    padding: 2px 4px;
+}
+.tour-table input[type="radio"], .tour-table input[type="checkbox"] {
+    margin-right: 4px;
+}
+.tour-btn-row {
+    background: #fff6cc;
+    text-align: center;
+}
+.tour-btn {
+    padding: 4px 18px;
+    font-size: 1em;
+    border: 1px solid #888;
+    border-radius: 3px;
+    background: #fff;
+    cursor: pointer;
+}
+.tour-btn:hover {
+    background: #e0f6ff;
+}
+.tour-success-row {
+    background: #fff;
+    text-align: center;
+}
+.tour-success {
+    color: #e6a600;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.tour-group-box {
+    border: 2px solid #a52a2a;
+    background: #fff6cc;
+    margin: 6px 0 6px 0;
+    padding: 6px 12px 6px 12px;
+    font-size: 1.1em;
+}
+.tour-group-title {
+    color: #a52a2a;
+    font-style: italic;
+    font-size: 1.1em;
+    margin-bottom: 4px;
+}
+.tour-group-row {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-top: 4px;
+}
+.tour-group-row label {
+    font-weight: bold;
+    color: #2a5a8a;
+}
+.tour-table textarea {
+    width: 98%;
+    font-size: 1em;
+    padding: 2px 4px;
+    resize: vertical;
+}
