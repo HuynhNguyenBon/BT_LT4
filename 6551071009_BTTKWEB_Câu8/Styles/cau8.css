@@ -1,0 +1,73 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: #fff;
+}
+.form-frame {
+    width: 600px;
+    margin: 40px auto;
+    border: 2px solid #888;
+    border-radius: 6px;
+    background: #f3fff0;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 8px #ccc;
+}
+.form-title {
+    color: #3a7a1a;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 18px 0 10px 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.form-table {
+    width: 98%;
+    margin: 0 auto 10px auto;
+    border-collapse: collapse;
+}
+.form-table td, .form-table th {
+    border: 1px solid #b2d8b2;
+    padding: 6px 8px;
+    font-size: 1.1em;
+}
+.form-table th, .form-table .label {
+    background: #d8f8d8;
+    color: #222;
+    text-align: left;
+    width: 180px;
+    font-weight: normal;
+}
+.form-table td.input {
+    background: #fff;
+}
+.form-table select, .form-table input[type="text"], .form-table input[type="number"] {
+    width: 98%;
+    font-size: 1em;
+    padding: 2px 4px;
+}
+.form-table input[type="radio"] {
+    margin-right: 4px;
+}
+.form-btn-row {
+    background: #d8f8f8;
+    text-align: center;
+}
+.form-btn {
+    padding: 4px 18px;
+    font-size: 1em;
+    border: 1px solid #888;
+    border-radius: 3px;
+    background: #fff;
+    cursor: pointer;
+}
+.form-btn:hover {
+    background: #e0f6ff;
+}
+.form-success-row {
+    background: #fff;
+    text-align: center;
+}
+.form-success {
+    color: #e6002f;
+    font-weight: bold;
+    font-size: 1.1em;
+}

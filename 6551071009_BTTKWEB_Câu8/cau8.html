@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Câu 8" content="Huynh Nguyen Bon">
+    <title>Phiếu đăng ký tham gia chương trình khuyến mãi</title>
+    <link rel="stylesheet" href="Styles/cau8.css">
+</head>
+<body>
+    <div class="form-frame">
+        <div class="form-title">Phiếu đăng ký tham gia chương trình khuyến mãi</div>
+        <form id="regForm" autocomplete="off">
+            <table class="form-table">
+                <tr>
+                    <td class="label">Họ và tên</td>
+                    <td class="input"><input type="text" name="hoten" value="" required></td>
+                </tr>
+                <tr>
+                    <td class="label">Địa chỉ</td>
+                    <td class="input"><input type="text" name="diachi" value="" required></td>
+                </tr>
+                <tr>
+                    <td class="label">Điện thoại</td>
+                    <td class="input"><input type="text" name="dienthoai" value="" required></td>
+                </tr>
+                <tr>
+                    <td class="label">Phái</td>
+                    <td class="input">
+                        <input type="radio" name="phai" value="Nam" checked> Nam
+                        <input type="radio" name="phai" value="Nữ"> Nữ
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">Nghề nghiệp</td>
+                    <td class="input">
+                        <select name="nghenghiep">
+                            <option>Giáo viên</option>
+                            <option>Bác sĩ</option>
+                            <option>Kỹ sư</option>
+                            <option>Sinh viên</option>
+                            <option>Khác</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">Chọn sản phẩm tham gia</td>
+                    <td class="input">
+                        <select name="sanpham" size="4">
+                            <option>Kem đánh răng</option>
+                            <option>Bột giặt</option>
+                            <option>Dầu gội đầu</option>
+                            <option>Sữa tắm</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">Số người dự đoán tham gia</td>
+                    <td class="input"><input type="number" name="songuoi" value="" required></td>
+                </tr>
+                <tr class="form-btn-row">
+                    <td colspan="2"><button type="submit" class="form-btn">Đồng ý</button></td>
+                </tr>
+                <tr class="form-success-row" id="successRow" style="display:none">
+                    <td colspan="2"><span class="form-success">Bạn đã đăng ký thành công!!!</span></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <script>
+    document.getElementById('regForm').onsubmit = function(e) {
+        e.preventDefault();
+        document.getElementById('successRow').style.display = '';
+    };
+    </script>
+</body>
+</html>
