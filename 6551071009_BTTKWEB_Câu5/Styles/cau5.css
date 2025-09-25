@@ -1,0 +1,58 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.table-title {
+    color: #d6002f;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 18px;
+    letter-spacing: 1px;
+}
+
+.study-table {
+    width: 800px;
+    margin: 0 auto 30px auto;
+    border-collapse: collapse;
+    font-size: 1.1em;
+    background: #fff;
+    box-shadow: 0 2px 8px #eee;
+}
+.study-table th, .study-table td {
+    border: 2px solid orange;
+    padding: 8px 12px;
+    text-align: left;
+}
+.study-table td.center, .study-table th.center {
+    text-align: center;
+}
+.study-table th {
+    background: #d6002f;
+    color: #fff;
+    font-size: 1.1em;
+    text-align: center;
+}
+.study-table .group {
+    font-weight: bold;
+    color: #d6002f;
+    text-align: center;
+    background: #fff;
+}
+.study-table .group1 {
+    font-weight: bold;
+    color: #d6002f;
+    background: #fff;
+}
+.study-table .subgroup {
+    font-weight: bold;
+    color: #d6002f;
+    background: #fff;
+}
+.study-table td {
+    background: #fff;
+}
